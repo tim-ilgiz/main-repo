@@ -1,4 +1,5 @@
 ﻿using first_sub;
+using nuget_lib;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,7 +24,8 @@ namespace main.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            var any = new AnyNugetClass();
+            ViewBag.Message = $"{any.ReturnAnyNugetString()}";
             return View();
         }
     }

@@ -1,0 +1,3 @@
+[submodule "main/sub-1"]
+	path = main/sub-1
+	url = git@github.com:tim-ilgiz/sub-1.git

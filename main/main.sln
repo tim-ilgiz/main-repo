@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "main", "main\main.csproj", "{8007D8C1-4C46-4CC8-AFFF-875AEFB0A877}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "submodules", "submodules", "{FFA0A890-FD96-40A4-A120-A23987192A3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "first-sub", "sub-1\first-sub\first-sub\first-sub.csproj", "{EEE5BF4F-E4BA-4F64-8C59-13DC3DB009F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,12 @@ Global
 		{8007D8C1-4C46-4CC8-AFFF-875AEFB0A877}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8007D8C1-4C46-4CC8-AFFF-875AEFB0A877}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8007D8C1-4C46-4CC8-AFFF-875AEFB0A877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEE5BF4F-E4BA-4F64-8C59-13DC3DB009F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEE5BF4F-E4BA-4F64-8C59-13DC3DB009F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEE5BF4F-E4BA-4F64-8C59-13DC3DB009F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEE5BF4F-E4BA-4F64-8C59-13DC3DB009F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EEE5BF4F-E4BA-4F64-8C59-13DC3DB009F4} = {FFA0A890-FD96-40A4-A120-A23987192A3B}
 	EndGlobalSection
 EndGlobal
